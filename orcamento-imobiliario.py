@@ -58,7 +58,7 @@ class Apartamento(Imovel):
     def calcular_aluguel(self):
         valor = self.valor_base
         if self.sem_criancas:
-            valor = valor * 0.95  # 5% de desconto
+            valor = valor * 0.95  # 5% de desconto, tive que pesquisar na net.
         return valor
 
 class Casa(Imovel):
